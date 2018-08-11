@@ -4,14 +4,14 @@ body {
 .header {
     background-color: black;
     width: 100%;
-    padding-right: 30px;
 } 
+.block1 {
+    display: inline-block;
+    margin-left: 15%;
+}
 .block1 img {
     padding: 10px 0;
     width: 150px;
-}
-.block1 {
-    display: inline-block;
 }
 .block2 {   
     color: white;
@@ -23,6 +23,8 @@ body {
 }
 .block3{
     float: right;
+    margin-right: 15%;
+    padding-top: 12px;
 }
 .block3 img {
     width: 30px
