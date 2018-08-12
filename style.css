@@ -1,37 +1,40 @@
 body {
     margin: 0;
 }
+
 .header {
     background-color: black;
     width: 100%;
     padding: 7px 0;
-} 
+}
+
 .block1 {
     display: inline-block;
     background-image: url("logo1.png");
-    width:150px;
+    width: 150px;
     height: 30px;
     vertical-align: top;
     margin-left: 15%;
 }
+
 .block2 {
     color: white;
     width: 320px;
     display: inline-block;
-    margin-left: 10px;  
+    margin-left: 10px;
     vertical-align: bottom;
     font-size: 13px;
-    
 }
-.block3{
+
+.block3 {
     float: right;
     margin-right: 15%;
 }
+
 .block3 img {
     width: 30px
 }
 
-
-
-
-   
+.block2 p {
+    margin: 0;
+}
